@@ -1,0 +1,65 @@
+* {
+    blborder: 1px red solid;
+}
+
+body {
+    font-family: berlin sans FB, sans-serif;
+}
+
+.jumbotron {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(0, 1, 37),rgb(0, 58, 218)); 
+    color: #00A2FF;
+}
+
+
+.gradient-text {
+    background-color: #ffffff;
+    background-image: linear-gradient( #00A2FF,#ffffff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+header .row {
+    margin-bottom: 0;
+}
+
+nav {
+    background: linear-gradient(rgb(0, 58, 218),rgb(0, 1, 37)); 
+    font-family: berlin sans FB, sans-serif;
+}
+
+nav div.container {
+    padding-bottom: 0;
+}
+.image-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45rem;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
+
+.home-image-1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample4.jpg);
+    background-position: 65%;
+
+}
+
+.home-image-2 {
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample8.jpg);
+    background-position: 90%;
+
+}
+
+.home-image-3 {
+    background-image: linear-gradient(to top,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample13.jpg);
+    background-position: 90%;
+
+}
