@@ -30,6 +30,8 @@ nav {
   nav a {
     transition: .2s ease-in-out;
     font-size: 1rem; }
+  nav button {
+    width: 50%; }
 
 header .row {
   margin-bottom: 0; }

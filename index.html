@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp  -->
+<script src="js/html_import.js"></script>
 <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-<!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Privada Cafe</title>
+    <div w3-include-html="html/head.html"></div>
 </head>
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5 align-self-center text-center text-lg-left">
-                    <a href="index.html" class="nav-link"><h2 class="gradient-text my-auto ml-lg-2">PRIVADA CAFE</h2></a>
-                </div>
-                <div class="col-sm-12 offset-lg-2 col-lg-5 align-self-center text-center text-lg-right">
-                    <p class="my-auto mr-lg-2">CAFE MEETUPS MADE SIMPLE AND FUN</p>
-                </div>
-            </div>
-        </div>
-    </header>
+    <div w3-include-html="html/header.html"></div>
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">  
-            <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav pt-4 pt-md-0">
-                        <li class="nav-item active">
-                            <a href="index.html" class="nav-link text-center">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="menu.html" class="nav-link ml-md-5 text-center">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-md-5 text-center">Reservation</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-md-4 ml-lg-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link text-center">Location</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-md-5 text-center">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-md-5 text-center">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        <div>
-    </nav>
-
+    <div w3-include-html="html/nav.html"></div>
 
     <div class="row home-image-1 image-section">
         <div class="col-8 mx-auto">
@@ -76,14 +27,9 @@
 
     </div>
 
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <div w3-include-html="html/script_body.html"></div>
     <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
+        w3IncludeHTML();
     </script>
 </body>
 </html>
