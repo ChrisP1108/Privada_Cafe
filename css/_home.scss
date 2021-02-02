@@ -2,7 +2,6 @@
 //    border: 1px red solid;
 }
 
-
 header .row {
     margin-bottom: 0;
 }
@@ -14,17 +13,39 @@ nav div.container {
 .image-section {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 45rem;
+    padding-bottom: 40rem;
 }
 
 .row {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .home-image-1 {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample4.jpg);
     background-position: 65%;
 
+}
+
+.section-overlay {
+    background: $trans-gray;
+    color: $light-gray;
+    margin-top: 4rem;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+p {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+
+.button-sizing {
+    width: 100%;
+}
+
+.button-color {
+    background: $dark-green;
 }
 
 .home-image-2 {

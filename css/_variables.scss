@@ -1,14 +1,18 @@
 //Colors
-$black-green: rgb(0, 46, 31);
-$dark-green: rgb(0, 71, 47);
-$green: rgb(0, 99, 65);
-$mid-green: rgb(0, 136, 88);
-$light-green: rgb(0, 197, 128);
-$bright-green: rgb(0, 255, 166);
-$white-green:rgb(194, 255, 233);
-$light-gray: #d5d6d6;
-$white: rgb(255,255,255);
-
+$black: hsl(0, 0%, 0%);
+$black-green: hsl(159, 100%, 9%);
+$dark-green: hsl(159, 100%, 14%);
+$green: hsl(159, 100%, 19%);
+$mid-green: hsl(159, 100%, 27%);
+$light-green: hsl(159, 100%, 39%);
+$bright-green: hsl(159, 100%, 50%);
+$white-green:hsl(159, 100%, 88%);
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(159, 14%, 88%);
+$mid-gray: hsl(159, 1%, 76%);
+$gray: hsl(159, 0%, 65%);
+$dark-gray: hsl(159, 0%, 50%);
+$trans-gray: rgba(46, 46, 46, 0.76);
 
 //Fonts
 $font-main: berlin sans FB, sans-serif;

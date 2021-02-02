@@ -10,24 +10,38 @@
 </head>
 
 <body>
+    <div w3-include-html="html/header.html"></div> <!-- Header import -->
 
-    <div w3-include-html="html/header.html"></div>
+    <div w3-include-html="html/nav.html"></div> <!-- Navbar import -->
 
-    <div w3-include-html="html/nav.html"></div>
-
-    <div class="row home-image-1 image-section">
-        <div class="col-8 mx-auto">
-            <h1 class="text-white text-center">Order Online And Skip The Line</h1>
+    <div class="container"></div>
+        <div class="row home-image-1 image-section">
+            <div class="col-lg-8 offset-lg-1 col-12 text-xl-left section-overlay">
+                <h2>Order Online And Skip The Line</h2>
+                <p>
+                    At Privada Cafe, we believe in making things quick and simple.  We know that waiting in line 
+                    can be a hassle, so why not pre-order online and have your order ready for you upon arrival?
+                </p>
+                <p>
+                    Place your order or if you're not feeling quite ready to order, feel free to browse our menu.
+                </p>
+                <div class="row mx-auto">
+                    <div class="col-4 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color">Order</a>
+                    </div>
+                    <div class="col-4 mx-auto">
+                        <a href="menu.html" class="btn btn-secondary button-sizing button-color">Menu</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row home-image-2 image-section">
 
+        </div>
+        <div class="row home-image-3 image-section">
+
+        </div>
     </div>
-    <div class="row home-image-2 image-section">
-
-    </div>
-    <div class="row home-image-3 image-section">
-
-    </div>
-
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
@@ -37,6 +51,7 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    <!-- Must be included for html file links to work-->
         <script>
             w3IncludeHTML();
         </script>
