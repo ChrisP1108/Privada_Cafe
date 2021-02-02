@@ -4,14 +4,20 @@
   "description": "Website for Privada Cafe",
   "main": "index.js",
   "scripts": {
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
-    "lite": "lite-server"
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "author": "Chris Paschall & Kevin Kennedy",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
