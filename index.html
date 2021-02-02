@@ -2,7 +2,8 @@
 <html lang="en">
 <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
     File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
-    https://www.w3schools.com/howto/howto_html_include.asp  -->
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
 <script src="js/html_import.js"></script>
 <head>
     <div w3-include-html="html/head.html"></div>
@@ -27,9 +28,17 @@
 
     </div>
 
-    <div w3-include-html="html/script_body.html"></div>
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        w3IncludeHTML();
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
     </script>
+        <script>
+            w3IncludeHTML();
+        </script>
 </body>
 </html>
