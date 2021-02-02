@@ -1,74 +1,6 @@
 body {
   font-family: berlin sans FB, sans-serif; }
 
-.rotated {
-  transform: rotate(180deg);
-  /* Equal to rotateZ(45deg) */ }
-
-.wrapper {
-  text-align: center; }
-
-.button {
-  position: absolute;
-  top: 50%; }
-
-.img {
-  max-width: 100%;
-  height: 24; }
-
-#menuheader {
-  background-color: #006341;
-  color: white; }
-
-body {
-  font-family: berlin sans FB, sans-serif;
-  color: #1e3932; }
-
-h1 {
-  background-color: #006341;
-  color: white; }
-
-h2 {
-  color: #006341;
-  padding-bottom: 0px;
-  border-bottom: 0px;
-  margin-bottom: 0px; }
-
-ul {
-  list-style: none;
-  font-size: x-large; }
-
-hr {
-  border: 3px solid #006341;
-  border-radius: 5px;
-  margin: 3px; }
-
-.jumbotron {
-  padding: 0;
-  margin: 0;
-  background: linear-gradient(to right, #00098D, #9c9c9c);
-  color: #00A2FF;
-  text-shadow: 4px 4px 7px #3200FF; }
-
-#container1 {
-  background-color: #f0ebe0;
-  border-top: 0;
-  border-bottom: 0;
-  padding-bottom: 5px; }
-
-#container1.lastChild {
-  text-align: center; }
-
-.image-section {
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 45rem; }
-
-.row {
-  margin-top: 25px;
-  margin-bottom: 1rem;
-  text-align: center; }
-
 * {
   blborder: 1px red solid; }
 
@@ -79,7 +11,7 @@ hr {
 
 .gradient-text {
   background-color: white;
-  background-image: linear-gradient(white, #71ff71);
+  background-image: linear-gradient(white, lime, white);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
