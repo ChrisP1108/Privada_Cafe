@@ -8,12 +8,6 @@
     margin-bottom: 0;
 }
 
-.home-image-1 {
-    background-image: linear-gradient(to top, $black, $trans-background, $black), url(../img/sample4.jpg);
-    background-position: 65%;
-
-}
-
 .section-overlay {
     background: $trans-gray;
     color: $light-gray;
@@ -28,14 +22,20 @@ p {
     font-size: 1.2rem;
 }
 
+.home-image-1 {
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample4.jpg);
+    background-position: 65%;
+
+}
+
 .home-image-2 {
-    background-image: linear-gradient(to top, $black, $trans-background, $black), url(../img/sample8.jpg);
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample8.jpg);
     background-position: 90%;
 
 }
 
 .home-image-3 {
-    background-image: linear-gradient(to top, $black, $trans-background, $black), url(../img/sample13.jpg);
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample13.jpg);
     background-position: 90%;
 
 }
