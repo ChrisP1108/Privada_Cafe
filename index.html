@@ -1,47 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
-    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
-    https://www.w3schools.com/howto/howto_html_include.asp and on 
-    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
-<script src="js/html_import.js"></script>
 <head>
-    <div w3-include-html="html/head.html"></div>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Privada Cafe</title>
 </head>
 
 <body>
     <div w3-include-html="html/header.html"></div> <!-- Header import -->
 
-    <div w3-include-html="html/nav.html"></div> <!-- Navbar import -->
+    <div w3-include-html="html/nav.html"></div> <!-- Nav import -->
 
     <div class="container"></div>
         <div class="row home-image-1 image-section">
-            <div class="col-lg-8 offset-lg-1 col-12 text-xl-left section-overlay">
-                <h2>Order Online And Skip The Line</h2>
-                <p>
+            <div class="col-lg-8 offset-lg-1 col-12 text-xl-left section-overlay pr-0 pl-0">
+                <h2 class="bg-darkgreen pl-3 pr-3">Order Online And Skip The Line</h2>
+                <p class="pl-3 pr-3">
                     At Privada Cafe, we believe in making things quick and simple.  We know that waiting in line 
-                    can be a hassle, so why not pre-order online and have your order ready for you upon arrival?
+                    can be a hassle when you're craving that fresh coffee brew or a delicious bite, so why not 
+                    pre-order online and have your order ready for you upon arrival?
                 </p>
-                <p>
+                <p class="pl-3 pr-3">
                     Place your order or if you're not feeling quite ready to order, feel free to browse our menu.
                 </p>
-                <div class="row mx-auto">
+                <div class="row">
                     <div class="col-4 mx-auto">
-                        <a class="btn btn-secondary button-sizing button-color">Order</a>
+                        <a class="btn btn-secondary button-sizing button-color mb-2">Order</a>
                     </div>
                     <div class="col-4 mx-auto">
-                        <a href="menu.html" class="btn btn-secondary button-sizing button-color">Menu</a>
+                        <a href="menu.html" class="btn btn-secondary button-sizing button-color mb-2">Menu</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row home-image-2 image-section">
-
+            <div class="col-lg-8 offset-lg-3 col-12 text-xl-right section-overlay pr-0 pl-0">
+                <h2 class="bg-darkgreen pl-3 pr-3">Have A Meetup With Some Privacy</h2>
+                <p class="pl-3 pr-3">
+                    Wanting to have a meeting outside of the office?  Or just want to be able to chat with some of 
+                    your peers with a little peace and quiet in your own private room?  
+                </p>
+                <p class="pl-3 pr-3">
+                    Then book one of our meeting rooms today and just show up and you're good to go.
+                </p>
+                <div class="row">
+                    <div class="col-6 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color mb-2">Reservation</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row home-image-3 image-section">
-
+            <div class="col-lg-8 col-12 text-center section-overlay pr-0 pl-0 center-horizontal">
+                <h2 class="bg-darkgreen pl-3 pr-3">Privada Strives On Excellence</h2>
+                <p class="pl-3 pr-3">
+                    Privada Cafe prides itself on being different from your typical coffee shop.  We seek 
+                    to make your experience as simple and fun as possible.
+                </p>
+                <p class="pl-3 pr-3">
+                    Find out more about us below
+                </p>
+                <div class="row">
+                    <div class="col-6 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color mb-2">About Us</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
+
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
@@ -51,9 +87,13 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-    <!-- Must be included for html file links to work-->
-        <script>
-            w3IncludeHTML();
-        </script>
+    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
+    <script src="js/html_import.js"></script>
+    <script>
+        w3IncludeHTML();
+    </script>
 </body>
 </html>

@@ -6,7 +6,13 @@ body {
   margin: 0;
   background: #00472e; }
 
-header h2 {
+header .row, footer .row {
+  margin-bottom: 0; }
+
+nav div.container, footer div.container {
+  padding-bottom: 0; }
+
+header h2, footer h2 {
   background-color: white;
   background: linear-gradient(#c2ffea, #00c781, #c2ffea);
   background-size: 100%;
@@ -15,29 +21,42 @@ header h2 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent; }
 
-header a.nav-link {
+header a.nav-link, footer a.nav-link {
   padding: .6rem 0;
   margin: 0; }
 
-header p {
+header p, footer p {
   color: #dce5e2;
   font-weight: 300;
   font-size: 1.05rem; }
 
-nav {
+nav, footer {
   background: #00613f;
   text-transform: uppercase; }
-  nav a {
+  nav a, footer a {
     transition: .2s ease-in-out;
     font-size: 1rem; }
-  nav button {
+  nav button, footer button {
     width: 45%; }
 
-header .row {
-  margin-bottom: 0; }
+.button-sizing {
+  width: 100%; }
 
-nav div.container {
-  padding-bottom: 0; }
+.button-color {
+  background: #00472e; }
+
+.bg-dark-green {
+  background: #002e1e; }
+
+.bg-green {
+  background: #00613f; }
+
+.bg-light-green {
+  background: #00c781; }
+
+.center-horizontal {
+  left: 50%;
+  transform: translatex(-50%); }
 
 .image-section {
   background-repeat: no-repeat;
@@ -45,14 +64,14 @@ nav div.container {
   padding-bottom: 40rem; }
 
 .row {
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 .home-image-1 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), black), url(../img/sample4.jpg);
+  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), black), url(../img/sample4.jpg);
   background-position: 65%; }
 
 .section-overlay {
-  background: rgba(46, 46, 46, 0.76);
+  background: rgba(47, 47, 47, 0.801);
   color: #dce5e2;
   margin-top: 4rem;
   position: absolute;
@@ -61,18 +80,16 @@ nav div.container {
 
 p {
   margin: 2rem 0;
-  font-size: 1.1rem; }
-
-.button-sizing {
-  width: 100%; }
-
-.button-color {
-  background: #00472e; }
+  font-size: 1.2rem; }
 
 .home-image-2 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), black), url(../img/sample8.jpg);
+  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), black), url(../img/sample8.jpg);
   background-position: 90%; }
 
 .home-image-3 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), black), url(../img/sample13.jpg);
+  background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0.5), black), url(../img/sample13.jpg);
   background-position: 90%; }
+
+.center-horizontal {
+  left: 50%;
+  transform: translatex(-50%); }
