@@ -1,9 +1,22 @@
 //Colors
-$green: rgb(0,99, 65);
-$light-green: rgb(0, 255, 0);
-$dark-green: rgb(0, 65, 1);
-$white: rgb(255,255,255);
-$white-green:rgb(113, 255, 113);
+$black-green: hsl(159, 100%, 9%);
+$dark-green: hsl(159, 100%, 14%);
+$green: hsl(159, 100%, 19%);
+$mid-green: hsl(159, 100%, 27%);
+$light-green: hsl(159, 100%, 39%);
+$bright-green: hsl(159, 100%, 50%);
+$white-green:hsl(159, 100%, 88%);
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(159, 14%, 88%);
+$mid-gray: hsl(159, 1%, 76%);
+$gray: hsl(159, 0%, 65%);
+$mid-gray: hsl(159, 0%, 50%);
+$dark-gray: hsl(0, 0%, 29%);
+$trans-gray: hsla(0, 0%, 18%, 0.801);
+$trans-green: hsla(159, 100%, 14%, 0.5);
+$trans-background: hsla(0, 0%, 0%, 0.5);
+$black: hsl(0, 0%, 0%);
+
 
 //Fonts
 $font-main: berlin sans FB, sans-serif;

@@ -1,58 +1,46 @@
-* {
-    blborder: 1px red solid;
-}
-
-.jumbotron {
-    padding: 0;
-    margin: 0;
-    background: $green; 
-}
-.gradient-text {
-    background-color: $white;
-    background-image: linear-gradient( $white, $white-green);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-}
-
-header .row {
-    margin-bottom: 0;
-}
-
-nav {
-    background: $green; 
-    font-family: berlin sans FB, sans-serif;
-}
-
-nav div.container {
-    padding-bottom: 0;
-}
 .image-section {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 45rem;
+    padding-bottom: 40rem;
 }
 
 .row {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+}
+
+.section-overlay {
+    background: $trans-gray;
+    color: $light-gray;
+    margin-top: 4rem;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+p {
+    margin: 2rem 0;
+    font-size: 1.2rem;
 }
 
 .home-image-1 {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample4.jpg);
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample4.jpg);
     background-position: 65%;
 
 }
 
 .home-image-2 {
-    background-image: linear-gradient(to top,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample8.jpg);
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample8.jpg);
     background-position: 90%;
 
 }
 
 .home-image-3 {
-    background-image: linear-gradient(to top,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.80), rgb(0, 0, 0)), url(../img/sample13.jpg);
+    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample13.jpg);
     background-position: 90%;
 
+}
+
+.center-horizontal {
+    left: 50%;
+    transform: translatex(-50%);
 }

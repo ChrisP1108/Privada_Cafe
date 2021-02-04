@@ -1,0 +1,32 @@
+.button {
+    &-sizing {
+        width: 100%;
+    }
+
+    &-color {
+        background: $dark-green;
+    }
+}
+
+.bg {
+    &-dark-green {
+        background: $black-green;
+    }
+    &-green {
+        background: $green;
+    }
+    &-light-green {
+        background: $light-green;
+    }
+    &-gray {
+        background: $gray;
+    }
+    &-dark-gray {
+        background: $dark-gray;
+    }
+}
+
+.center-horizontal {
+    left: 50%;
+    transform: translatex(-50%);
+}

@@ -9,71 +9,76 @@
 <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
     <link rel="stylesheet" href="css/styles.css" />
     <title>Privada Cafe</title>
 </head>
 
 <body>
+    <div w3-include-html="html/header.html"></div> <!-- Header import -->
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5 align-self-center text-center">
-                    <a href="index.html" class="nav-link"><h2 class="gradient-text">PRIVADA CAFE</h2></a>
-                </div>
-                <div class="col-sm-12 offset-lg-2 col-lg-5 align-self-center text-center">
-                    <h6 class="gradient-text">CAFE MEETUPS MADE SIMPLE AND FUN</h6>
+    <div w3-include-html="html/nav.html"></div> <!-- Nav import -->
+
+    <div class="container"></div>
+        <div class="row home-image-1 image-section">
+            <div class="col-lg-8 offset-lg-1 col-12 text-xl-left section-overlay pr-0 pl-0">
+                <h2 class="pl-3 pr-3 bg-green">Order Online And Skip The Line</h2>
+                <p class="pl-3 pr-3">
+                    At Privada Cafe, we believe in making things quick and simple.  We know that waiting in line 
+                    can be a hassle when you're craving that fresh coffee brew or a delicious bite, so why not 
+                    pre-order online and have your order ready for you upon arrival?
+                </p>
+                <p class="pl-3 pr-3">
+                    Place your order or if you're not feeling quite ready to order, feel free to browse our menu.
+                </p>
+                <div class="row">
+                    <div class="col-4 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color mb-2">Order</a>
+                    </div>
+                    <div class="col-4 mx-auto">
+                        <a href="menu.html" class="btn btn-secondary button-sizing button-color mb-2">Menu</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">  
-            <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="menu.html" class="nav-link ml-5">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-5">Reservation</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-lg-auto ml-md-5">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Location</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-5">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ml-5">Contact</a>
-                        </li>
-                    </ul>
+        <div class="row home-image-2 image-section">
+            <div class="col-lg-8 offset-lg-3 col-12 text-xl-right section-overlay pr-0 pl-0">
+                <h2 class="pl-3 pr-3 bg-green">Have A Meetup With Some Privacy</h2>
+                <p class="pl-3 pr-3">
+                    Wanting to have a meeting outside of the office?  Or just want to be able to chat with some of 
+                    your peers with a little peace and quiet in your own private room?  
+                </p>
+                <p class="pl-3 pr-3">
+                    Then book one of our meeting rooms today and just show up and you're good to go.
+                </p>
+                <div class="row">
+                    <div class="col-6 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color mb-2">Reservation</a>
+                    </div>
                 </div>
             </div>
-        <div>
-    </nav>
-
-
-    <div class="row home-image-1 image-section">
-        <div class="col-8 mx-auto">
-            <h1 class="text-white text-center">Order Online And Skip The Line</h1>
         </div>
-
+        <div class="row home-image-3 image-section">
+            <div class="col-lg-8 col-12 text-center section-overlay pr-0 pl-0 center-horizontal">
+                <h2 class="pl-3 pr-3 bg-green">Privada Strives On Excellence</h2>
+                <p class="pl-3 pr-3">
+                    Privada Cafe prides itself on being different from your typical coffee shop.  We seek 
+                    to make your experience as simple and fun as possible.
+                </p>
+                <p class="pl-3 pr-3">
+                    Find out more about us below
+                </p>
+                <div class="row">
+                    <div class="col-6 mx-auto">
+                        <a class="btn btn-secondary button-sizing button-color mb-2">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row home-image-2 image-section">
 
-    </div>
-    <div class="row home-image-3 image-section">
+    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
 
-    </div>
-
- <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -81,6 +86,14 @@
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
+    </script>
+    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
+    <script src="js/html_import.js"></script>
+    <script>
+        w3IncludeHTML();
     </script>
 </body>
 </html>
