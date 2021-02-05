@@ -6,9 +6,6 @@ body {
   margin: 0;
   background: #00472e; }
 
-nav div.container, footer div.container {
-  padding-bottom: 0; }
-
 header h2 {
   background-color: white;
   background: linear-gradient(#c2ffea, #00c781, #c2ffea);
@@ -27,17 +24,17 @@ header p {
   font-weight: 300;
   font-size: 1.05rem; }
 
-nav, footer {
-  text-transform: uppercase; }
-  nav a, footer a {
-    transition: .2s ease-in-out;
-    font-size: 1rem; }
-
 nav {
   background: #00613f; }
   nav button {
     width: 50%;
     height: 3rem; }
+
+nav, footer {
+  text-transform: uppercase; }
+  nav a, footer a {
+    transition: .2s ease-in-out;
+    font-size: 1.05rem; }
 
 footer {
   background: #002e1e; }

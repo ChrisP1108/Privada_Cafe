@@ -13,10 +13,6 @@ body {
     background: $dark-green;
 }
 
-nav div.container, footer div.container {
-    padding-bottom: 0;
-}
-
 header {
 
     h2 {
@@ -39,24 +35,25 @@ header {
     }
     
 }
+
+nav {
+    background: $green;
+
+    button {
+        width: 50%;
+        height: 3rem;
+    }
+}
+
 nav, footer {
     text-transform: uppercase;
 
     a {
         transition: .2s ease-in-out;
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
 
-}
-
-nav {
-    background: $green;
-    
-    button {
-        width: 50%;
-        height: 3rem;
-    }
 }
 
 footer {

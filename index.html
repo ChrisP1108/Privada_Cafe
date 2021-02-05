@@ -16,7 +16,7 @@
 <body>
     <div w3-include-html="html/header.html"></div> <!-- Header import -->
 
-    <div w3-include-html="html/nav.html"></div> <!-- Nav import -->
+    <div data-page="homePage" w3-include-html="html/nav.html"></div> <!-- Nav import -->
 
     <div class="container"></div>
         <div class="row home-image-1 image-section">
@@ -52,7 +52,7 @@
                 </p>
                 <div class="row">
                     <div class="col-6 mx-auto">
-                        <a class="btn btn-secondary button-sizing button-color mb-2">Reservation</a>
+                        <a href="reservations.html" class="btn btn-secondary button-sizing button-color mb-2">Reservation</a>
                     </div>
                 </div>
             </div>
@@ -91,9 +91,10 @@
     File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
     https://www.w3schools.com/howto/howto_html_include.asp and on 
     https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
-    <script src="js/html_import.js"></script>
+    <script src="js/html_import.js"></script>  
     <script>
         w3IncludeHTML();
     </script>
+
 </body>
 </html>
