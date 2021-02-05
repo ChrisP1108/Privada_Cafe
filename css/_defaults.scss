@@ -1,7 +1,9 @@
 * {
 //    border: 1px red solid;
 }
-    
+
+// Defaults for Header, Nav, Footer
+
 body {
     font-family: $font-main;
 }
@@ -62,4 +64,35 @@ footer {
 
 .fa {
     transition: .2s ease-in-out;
+}
+
+//Defaults For Pages
+
+.image-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40rem;
+}
+
+.section-overlay {
+    background: $trans-gray;
+    color: $light-gray;
+    margin-top: 4rem;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+p {
+    margin: 2rem 0;
+    font-size: $text-size;
+}
+
+.center-horizontal {
+    left: 50%;
+    transform: translatex(-50%);
 }

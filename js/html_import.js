@@ -23,8 +23,6 @@ function w3IncludeHTML(cb) {
     // Nav-link active styling for select pages
     if (document.querySelector("[data-page='homePage']")) {
         document.querySelector('#navHome').classList.add('active');
-    // Home page navbar sticky-top disabling
-        document.querySelector('nav').classList.remove('sticky-top');
     }
     if (document.querySelector("[data-page='menuPage']")) {
         document.querySelector('#navMenu').classList.add('active');      

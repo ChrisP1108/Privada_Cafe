@@ -1,27 +1,3 @@
-.image-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 40rem;
-}
-
-.row {
-    margin-bottom: 0;
-}
-
-.section-overlay {
-    background: $trans-gray;
-    color: $light-gray;
-    margin-top: 4rem;
-    position: absolute;
-    left: 0;
-    text-align: center;
-}
-
-p {
-    margin: 2rem 0;
-    font-size: 1.2rem;
-}
-
 .home-image-1 {
     background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample4.jpg);
     background-position: 65%;
@@ -38,9 +14,4 @@ p {
     background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample13.jpg);
     background-position: 90%;
 
-}
-
-.center-horizontal {
-    left: 50%;
-    transform: translatex(-50%);
 }
