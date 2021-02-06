@@ -1,10 +1,12 @@
-.about-image-1 {
-    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample26.jpg);
-    background-position: 65%;
+#aboutUsContainer {
+    .about-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample26.jpg);
+        background-position: 65%;
 
-}
+    }
 
-.about-image-2 {
-    background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample12.jpg);
-    background-position: 90%;
+    .about-image-2 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample12.jpg);
+        background-position: 90%;
+    }
 }

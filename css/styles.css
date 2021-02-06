@@ -64,7 +64,7 @@ p {
   transform: translatex(-50%); }
 
 hr {
-  border: 3px solid #006341;
+  border: 3px solid #00613f;
   border-radius: 5px;
   margin: 3px; }
 
@@ -111,22 +111,22 @@ hr {
     border-bottom: 0px;
     margin-bottom: 0px; }
 
-.home-image-1 {
+#homeContainer .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);
   background-position: 65%; }
 
-.home-image-2 {
+#homeContainer .home-image-2 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample8.jpg);
   background-position: 90%; }
 
-.home-image-3 {
+#homeContainer .home-image-3 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample13.jpg);
   background-position: 90%; }
 
-.about-image-1 {
+#aboutUsContainer .about-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample26.jpg);
   background-position: 65%; }
 
-.about-image-2 {
+#aboutUsContainer .about-image-2 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample12.jpg);
   background-position: 90%; }
