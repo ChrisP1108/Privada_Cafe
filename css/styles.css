@@ -63,6 +63,11 @@ p {
   left: 50%;
   transform: translatex(-50%); }
 
+hr {
+  border: 3px solid #006341;
+  border-radius: 5px;
+  margin: 3px; }
+
 .button-sizing {
   width: 100%; }
 
@@ -87,6 +92,24 @@ p {
 .center-horizontal {
   left: 50%;
   transform: translatex(-50%); }
+
+#containerMenu {
+  background-color: #f0ebe0;
+  border-top: 0;
+  border-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center; }
+  #containerMenu ul {
+    list-style: none;
+    font-size: x-large; }
+  #containerMenu h1 {
+    background-color: #006341;
+    color: white; }
+  #containerMenu h2 {
+    color: #006341;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px; }
 
 .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);

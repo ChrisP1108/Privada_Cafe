@@ -11,7 +11,6 @@ body {
 .jumbotron {
     padding: 0;
     margin: 0;
-//    background: linear-gradient( $black-green, $dark-green, $green);
     background: $dark-green;
 }
 
@@ -34,8 +33,7 @@ header {
         color: $light-gray;
         font-weight: 300;
         font-size: 1.05rem;
-    }
-    
+    }  
 }
 
 nav {
@@ -91,4 +89,10 @@ p {
 .center-horizontal {
     left: 50%;
     transform: translatex(-50%);
+}
+
+hr {
+    border: 3px solid rgb(0,99, 65);
+    border-radius: 5px;
+    margin: 3px;
 }
