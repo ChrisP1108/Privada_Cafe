@@ -1,0 +1,13 @@
+#locationPage {
+    .location-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample22.jpg);
+        background-position: 65%;
+        height: 84rem;
+    }
+    a {
+        color: $light-green;
+        :hover {
+            color: $bright-green;
+        }
+    }
+}

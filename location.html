@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Privada Cafe</title>
+</head>
+
+<body>
+    
+    <div w3-include-html="html/header.html"></div> <!-- Header import -->
+
+    <div data-page="locationPage"class="sticky-top" w3-include-html="html/nav.html"></div> <!-- Nav import -->
+
+    <div id="locationPage">   
+        <div class="row location-image-1 image-section">
+            <div class="col-lg-10 col-12 text-center section-overlay pr-0 pl-0 pb-5 center-horizontal">
+                <h2 class="pl-3 pr-3 bg-green">A Privada Cafe Is Not Far Away</h2>
+                <p class="pl-3 pr-3">
+                    Privada Cafe has convenient locations throughout the US.
+                </p>
+                <p class="pl-3 pr-3">
+                    See below for the nearest location near you.
+                </p>
+                <div class="row mt-5 my-auto">
+                    <div class="col-11 mx-auto my-auto border pt-2 pb-2">
+                        <div class="row my-auto">
+                            <div class="col-sm-4 my-auto">
+                                <h3>Chicago</h3>
+                            </div>
+                            <div class="col-sm-5 offset-sm-2 pt-1 text-sm-right">
+                                <h5>1580 S Elm Street<br>
+                                    Chicago, IL 60660</h5>
+                            </div>
+                            <div class="col-sm-1 mt-3 mt-sm-0">
+                                <a href="#"><i class="fa fa-map-marker fa-4x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
+    <script src="js/html_import.js"></script>
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+</html>
