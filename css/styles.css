@@ -1,3 +1,6 @@
+* {
+  border: 1px red solid; }
+
 body {
   font-family: berlin sans FB, sans-serif; }
 
@@ -130,3 +133,8 @@ hr {
 .about-image-2 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample12.jpg);
   background-position: 90%; }
+
+#contactUsPage .contact-image-1 {
+  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample23.jpg);
+  background-position: 65%;
+  height: 70rem; }
