@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Privada Cafe</title>
+</head>
+
+<body>
+    
+    <div w3-include-html="html/header.html"></div> <!-- Header import -->
+
+    <div w3-include-html="html/nav.html"></div> <!-- Nav import -->
+
+    <div id="contactUsPage">   
+        <div class="row contact-image-1 image-section">
+            <div class="col-lg-8 col-12 text-center section-overlay pr-0 pl-0 center-horizontal">
+                <h2 class="pl-3 pr-3 bg-green">Privada Wants Your Feedback</h2>
+                <p class="pl-3 pr-3">
+                    Privada Cafe wants to know how your experience has been and how we can improve upon it.
+                </p>
+                <p class="pl-3 pr-3">
+                    Feel free to contact us below.
+                </p>
+                <div class="row">
+                    <div class="col-12 mb-3 mb-sm-0 col-md-6 mx-auto">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1482.6118213730226!2d-87.65589088856566!3d41.99547565985414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd10adc1bafdb%3A0x96390d35e64bf11d!2s6234%20N%20Sheridan%20Rd%2C%20Chicago%2C%20IL%2060660!5e0!3m2!1sen!2sus!4v1612798279660!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-12 mb-3 mb-sm-0 col-md-3 mx-auto">
+                        <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="fields" size="30" placeholder="First Name">
+                        <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="fields" size="30" placeholder="Last Name">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
+    <script src="js/html_import.js"></script>
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+</html>
