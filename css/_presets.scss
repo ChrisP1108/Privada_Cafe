@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    &-half-size {
+        width: 50%;
+    }
+
     &-color {
         background: $dark-green;
     }
@@ -31,6 +35,7 @@
         background: $dark-gray;
     }
 }
+
 
 .center-horizontal {
     left: 50%;

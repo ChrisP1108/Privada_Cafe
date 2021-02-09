@@ -77,6 +77,9 @@ hr {
 .button-sizing {
   width: 100%; }
 
+.button-half-size {
+  width: 50%; }
+
 .button-color {
   background: #00472e; }
 
