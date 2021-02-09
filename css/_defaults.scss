@@ -4,10 +4,6 @@
 
 // Defaults for Header, Nav, Footer
 
-body {
-    font-family: $font-main;
-}
-
 .jumbotron {
     padding: 0;
     margin: 0;
@@ -66,6 +62,14 @@ footer {
 
 //Defaults For Pages
 
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $font-main;
+}
+
 .image-section {
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,4 +99,8 @@ hr {
     border: 3px solid rgb(0,99, 65);
     border-radius: 5px;
     margin: 3px;
+}
+
+.border-container {
+    border: 2px $white solid;
 }
