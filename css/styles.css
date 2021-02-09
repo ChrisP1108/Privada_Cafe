@@ -1,9 +1,3 @@
-* {
-  border: 1px red solid; }
-
-body {
-  font-family: berlin sans FB, sans-serif; }
-
 .jumbotron {
   padding: 0;
   margin: 0;
@@ -44,6 +38,12 @@ footer {
 
 .fa {
   transition: .2s ease-in-out; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: berlin sans FB, sans-serif; }
 
 .image-section {
   background-repeat: no-repeat;
@@ -120,37 +120,56 @@ hr {
     border-bottom: 0px;
     margin-bottom: 0px; }
 
-.home-image-1 {
+#homePage .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);
   background-position: 65%; }
 
-.home-image-2 {
+#homePage .home-image-2 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample8.jpg);
   background-position: 90%; }
 
-.home-image-3 {
+#homePage .home-image-3 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample13.jpg);
   background-position: 90%; }
 
-.about-image-1 {
+@media (max-width: 576px) {
+  #homePage .home-image-1 {
+    height: 47rem; } }
+
+#aboutUsPage .about-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample26.jpg);
   background-position: 65%; }
 
-.about-image-2 {
+#aboutUsPage .about-image-2 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample12.jpg);
   background-position: 90%; }
+
+@media (max-width: 576px) {
+  #aboutUsPage .about-image-1 {
+    height: 64rem; } }
 
 #contactUsPage .contact-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample18.jpg);
   background-position: 65%;
-  height: 84rem; }
+  height: 76rem; }
+
+@media (max-width: 576px) {
+  #contactUsPage .contact-image-1 {
+    height: 86rem; } }
 
 #locationPage .location-image-1 {
-  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample22.jpg);
+  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample3.jpg);
   background-position: 65%;
-  height: 84rem; }
+  height: 80rem; }
 
 #locationPage a {
   color: #00c781; }
   #locationPage a :hover {
     color: #00ffa6; }
+
+#locationPage i {
+  transform: translatey(10%); }
+
+@media (max-width: 576px) {
+  #locationPage .location-image-1 {
+    height: 126rem; } }
