@@ -3,6 +3,10 @@
         width: 100%;
     }
 
+    &-half-size {
+        width: 50%;
+    }
+
     &-color {
         background: $dark-green;
     }
@@ -15,8 +19,17 @@
     &-green {
         background: $green;
     }
+    &-hover-green {
+        background: $green;
+    }
     &-light-green {
         background: $light-green;
+    }
+    &-mid-green {
+        background: $mid-green;
+    }
+    &-light-gray {
+        background: $light-gray;
     }
     &-gray {
         background: $gray;
@@ -25,6 +38,7 @@
         background: $dark-gray;
     }
 }
+
 
 .center-horizontal {
     left: 50%;
