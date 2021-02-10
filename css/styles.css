@@ -1,8 +1,7 @@
-
 .jumbotron {
   padding: 0;
   margin: 0;
-  background: #00472e; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
 
 header h2 {
   background-color: white;
@@ -23,7 +22,7 @@ header p {
   font-size: 1.05rem; }
 
 nav {
-  background: #00613f; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
   nav button {
     width: 50%;
     height: 3rem; }
@@ -35,7 +34,7 @@ nav, footer {
     font-size: 1.05rem; }
 
 footer {
-  background: #002e1e; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
 
 .fa {
   transition: .2s ease-in-out; }
@@ -112,23 +111,29 @@ hr {
   left: 50%;
   transform: translatex(-50%); }
 
-#containerMenu {
-  background-color: #f0ebe0;
-  border-top: 0;
-  border-bottom: 0;
-  padding-bottom: 5px;
-  text-align: center; }
-  #containerMenu ul {
-    list-style: none;
-    font-size: x-large; }
-  #containerMenu h1 {
-    background-color: #006341;
-    color: white; }
-  #containerMenu h2 {
-    color: #006341;
-    padding-bottom: 0px;
-    border-bottom: 0px;
-    margin-bottom: 0px; }
+#menuPage .menu-image-1 {
+  background-image: linear-gradient(to top, black, rgba(46, 46, 46, 0.801), black), url(../img/sample30.jpg);
+  background-position: 65%;
+  height: 72rem; }
+
+#menuPage ul, #menuPage li {
+  list-style: none;
+  font-size: x-large;
+  margin: 0; }
+
+#menuPage p {
+  font-size: 1.5rem;
+  margin: 0; }
+
+#menuPage button {
+  font-size: 1.2rem; }
+
+@media (max-width: 768px) {
+  #menuPage section {
+    border: 1px white solid;
+    margin: 1.5rem 1.5rem; }
+  #menuPage .menu-image-1 {
+    height: 130rem; } }
 
 #homePage .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);
@@ -161,11 +166,16 @@ hr {
 #contactUsPage .contact-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample18.jpg);
   background-position: 65%;
-  height: 76rem; }
+  height: 98rem; }
 
 @media (max-width: 576px) {
   #contactUsPage .contact-image-1 {
-    height: 86rem; } }
+    height: 106rem; } }
+
+@media (max-width: 768px) {
+  #contactUsPage section {
+    border: 1px white solid;
+    margin: 1.5rem 1.5rem; } }
 
 #locationPage .location-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample3.jpg);
@@ -183,3 +193,32 @@ hr {
 @media (max-width: 576px) {
   #locationPage .location-image-1 {
     height: 126rem; } }
+
+#containerRes {
+  background-color: #f0ebe0;
+  border-top: 0;
+  border-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center; }
+  #containerRes ul {
+    list-style: none;
+    font-size: x-large; }
+  #containerRes h1 {
+    background-color: #006341;
+    color: white; }
+  #containerRes h2 {
+    color: #006341;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px; }
+
+#loginPage .login-image-1 {
+  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample16.jpg);
+  background-position: 65%;
+  height: 48rem; }
+
+#loginPage .btn-success:hover {
+  background: #008a5a; }
+
+#loginModal .btn-success:hover {
+  background: #008a5a; }

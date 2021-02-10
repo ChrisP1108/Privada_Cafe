@@ -1,0 +1,15 @@
+#loginPage {
+    .login-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample16.jpg);
+        background-position: 65%;
+        height: 48rem;
+    }
+    .btn-success:hover {
+        background: $mid-green;
+    }
+}
+#loginModal {
+    .btn-success:hover {
+        background: $mid-green;
+    }
+}
