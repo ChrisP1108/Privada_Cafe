@@ -1,0 +1,14 @@
+#loginPage {
+    .login-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample16.jpg);
+        background-position: 65%;
+        height: 60rem;
+    }
+    .login-overlay {
+        margin-top: 7rem;
+        text-align: center;
+    }
+    .bg-trans-gray {
+        background: $trans-gray;
+    }
+}

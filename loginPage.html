@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Privada Cafe</title>
+</head>
+
+<body>
+    
+    <div w3-include-html="html/header.html"></div> <!-- Header import -->
+
+    <div w3-include-html="html/login.html"></div> <!-- Login modal import -->
+
+    <div w3-include-html="html/nav.html"></div> <!-- Nav import -->
+
+    <div id="loginPage">
+        <div class="row login-image-1 image-section" role="document">
+            <div class="col-6 login-overlay mx-auto">
+                <div class="modal-header bg-green">
+                    <h3 class="modal-title text-white">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body bg-trans-gray">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-9 mx-auto">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail"
+                                        placeholder="Enter email"> 
+                                </div>
+                                <div class="form-group col-9 mx-auto">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword"
+                                        placeholder="Password">
+                                </div>
+                                <div class="col-9 mx auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto button-sizing" 
+                                        data-dismiss="modal">Cancel</button>
+                                    </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-success bg-green text-white btn-sm button-sizing"> Sign in</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
+
+     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+    File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
+    https://www.w3schools.com/howto/howto_html_include.asp and on 
+    https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
+    <script src="js/html_import.js"></script>
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+</html>
