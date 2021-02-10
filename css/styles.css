@@ -1,7 +1,7 @@
 .jumbotron {
   padding: 0;
   margin: 0;
-  background: #00472e; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
 
 header h2 {
   background-color: white;
@@ -22,7 +22,7 @@ header p {
   font-size: 1.05rem; }
 
 nav {
-  background: #00613f; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
   nav button {
     width: 50%;
     height: 3rem; }
@@ -34,7 +34,7 @@ nav, footer {
     font-size: 1.05rem; }
 
 footer {
-  background: #002e1e; }
+  background: linear-gradient(#00613f, #00472e, #00613f); }
 
 .fa {
   transition: .2s ease-in-out; }
