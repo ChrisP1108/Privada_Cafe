@@ -1,23 +1,23 @@
-#containerMenu {
-    background-color: rgb(240,235,224);
-    border-top: 0;
-    border-bottom: 0;
-    padding-bottom: 5px;
-    text-align: center;
-        ul {
-            list-style: none;
-            font-size: x-large;
-        }
-        h1 {
-            background-color: rgb(0,99, 65);
-            color: white;
-        }
-        h2 {
-            color: rgb(0,99, 65);
-            padding-bottom: 0px;
-            border-bottom: 0px;
-            margin-bottom: 0px;
-        }
+#menuPage {
+    ul {
+        list-style: none;
+        font-size: x-large;
+    }
+    h1 {
+        background-color: rgb(0,99, 65);
+        color:$white;
+    }
+    h2 {
+        padding-bottom: 0px;
+        border-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .menu-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample30.jpg);
+        background-position: 65%;
+        height: 64rem;
+    }
+
 }
 
 

@@ -1,3 +1,5 @@
+* {
+  border: 1px red solid; }
 
 .jumbotron {
   padding: 0;
@@ -112,23 +114,23 @@ hr {
   left: 50%;
   transform: translatex(-50%); }
 
-#containerMenu {
-  background-color: #f0ebe0;
-  border-top: 0;
-  border-bottom: 0;
-  padding-bottom: 5px;
-  text-align: center; }
-  #containerMenu ul {
-    list-style: none;
-    font-size: x-large; }
-  #containerMenu h1 {
-    background-color: #006341;
-    color: white; }
-  #containerMenu h2 {
-    color: #006341;
-    padding-bottom: 0px;
-    border-bottom: 0px;
-    margin-bottom: 0px; }
+#menuPage ul {
+  list-style: none;
+  font-size: x-large; }
+
+#menuPage h1 {
+  background-color: #006341;
+  color: white; }
+
+#menuPage h2 {
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px; }
+
+#menuPage .menu-image-1 {
+  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample30.jpg);
+  background-position: 65%;
+  height: 64rem; }
 
 #homePage .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);
@@ -183,3 +185,21 @@ hr {
 @media (max-width: 576px) {
   #locationPage .location-image-1 {
     height: 126rem; } }
+
+#containerRes {
+  background-color: #f0ebe0;
+  border-top: 0;
+  border-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center; }
+  #containerRes ul {
+    list-style: none;
+    font-size: x-large; }
+  #containerRes h1 {
+    background-color: #006341;
+    color: white; }
+  #containerRes h2 {
+    color: #006341;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px; }

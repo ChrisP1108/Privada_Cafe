@@ -17,74 +17,80 @@
     
     <div w3-include-html="html/header.html"></div> <!-- Header import -->
 
+    <div w3-include-html="html/login.html"></div> <!-- Login modal import -->
+
     <div class="sticky-top" data-page="menuPage" w3-include-html="html/nav.html"></div> <!-- Nav import -->
     
-    <div class="container" id="containerMenu">
-        <div class="row">
-           <div class="col">
-              <h1>Menu</h1>
-           </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h2>Food</h2><hr>
+    <div id="menuPage">
+        <div class="row menu-image-1 image-section">
+            <div class="col-9 section-overlay center-horizontal">
+                <div class="row">
+                    <div class="col pr-0 pl-0">
+                        <h1>Menu</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Food</h2><hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>Bagel</li>
+                            <li>Croissant</li> 
+                            <li>Muffin</li> 
+                            <li>Toast</li>
+                            <li>House Salad</li> 
+                            <li>Ham sandwich</li>
+                            <li>Veg. sandwich</li> 
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li>$2.50</li> 
+                            <li>$2.50</li> 
+                            <li>$2</li> 
+                            <li>$1.50</li> 
+                            <li>$5</li>
+                            <li>$4</li> 
+                            <li>$3.5</li> 
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h2>Drinks</h2><hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>Water</li> 
+                            <li>Coffee</li> 
+                            <li>Tea</li> 
+                            <li>Hot Chocolate</li>
+                            <li>Lemonade</li> 
+                            <li>Iced Tea</li>
+                            <li>Orange Juice</li> 
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>$2</li> 
+                            <li>$1.50</li> 
+                            <li>$1.25</li> 
+                            <li>$2</li> 
+                            <li>$2</li>
+                            <li>$2</li> 
+                            <li>$2.50</li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-8 col-sm-6 col-lg-4 mx-auto">
+                        <button type="submit" class="btn btn-secondary button-sizing button-color" id="btn" onclick="document.location='index.html'">Log in to Order</button> 
+                    </div> 
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <ul>
-                    <li>Bagel</li>
-                    <li>Croissant</li> 
-                    <li>Muffin</li> 
-                    <li>Toast</li>
-                    <li>House Salad</li> 
-                    <li>Ham sandwich</li>
-                    <li>Veg. sandwich</li> 
-                </ul>
-            </div>
-            <div class="col-6">
-                <ul>
-                    <li>$2.50</li> 
-                    <li>$2.50</li> 
-                    <li>$2</li> 
-                    <li>$1.50</li> 
-                    <li>$5</li>
-                    <li>$4</li> 
-                    <li>$3.5</li> 
-                </ul>
-            </div>
-            <div class="col">
-                <h2>Drinks</h2><hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <ul>
-                    <li>Water</li> 
-                    <li>Coffee</li> 
-                    <li>Tea</li> 
-                    <li>Hot Chocolate</li>
-                    <li>Lemonade</li> 
-                    <li>Iced Tea</li>
-                    <li>Orange Juice</li> 
-                </ul>
-            </div>
-            <div class="col-6">
-                <ul>
-                    <li>$2</li> 
-                    <li>$1.50</li> 
-                    <li>$1.25</li> 
-                    <li>$2</li> 
-                    <li>$2</li>
-                    <li>$2</li> 
-                    <li>$2.50</li> 
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <button type="submit" class="btn btn-success btn-lg" id="btn" onclick="document.location='index.html'">Log in to Order</button> 
-            </div> 
         </div>
     </div> 
 
