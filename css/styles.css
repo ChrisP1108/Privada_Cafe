@@ -1,4 +1,6 @@
-
+/** {
+    border: 1px red solid;
+}*/
 .jumbotron {
   padding: 0;
   margin: 0;
@@ -183,3 +185,20 @@ hr {
 @media (max-width: 576px) {
   #locationPage .location-image-1 {
     height: 126rem; } }
+
+#containerRes {
+  background-color: #f0ebe0;
+  border-top: 0;
+  border-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center; }
+  #containerRes h1 {
+    background-color: #006341;
+    color: white; }
+  #containerRes h2 {
+    color: #006341;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px; }
+  #containerRes .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.15); }
