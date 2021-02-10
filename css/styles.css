@@ -214,11 +214,10 @@ hr {
 #loginPage .login-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample16.jpg);
   background-position: 65%;
-  height: 60rem; }
+  height: 48rem; }
 
-#loginPage .login-overlay {
-  margin-top: 7rem;
-  text-align: center; }
+#loginPage .btn-success:hover {
+  background: #008a5a; }
 
-#loginPage .bg-trans-gray {
-  background: rgba(46, 46, 46, 0.801); }
+#loginModal .btn-success:hover {
+  background: #008a5a; }

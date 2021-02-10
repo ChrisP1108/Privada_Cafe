@@ -2,13 +2,14 @@
     .login-image-1 {
         background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample16.jpg);
         background-position: 65%;
-        height: 60rem;
+        height: 48rem;
     }
-    .login-overlay {
-        margin-top: 7rem;
-        text-align: center;
+    .btn-success:hover {
+        background: $mid-green;
     }
-    .bg-trans-gray {
-        background: $trans-gray;
+}
+#loginModal {
+    .btn-success:hover {
+        background: $mid-green;
     }
 }
