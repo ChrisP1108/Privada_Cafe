@@ -1,6 +1,3 @@
-* {
-  border: 1px red solid; }
-
 .jumbotron {
   padding: 0;
   margin: 0;
@@ -114,23 +111,33 @@ hr {
   left: 50%;
   transform: translatex(-50%); }
 
-#menuPage ul {
+#menuPage .menu-image-1 {
+  background-image: linear-gradient(to top, black, rgba(46, 46, 46, 0.801), black), url(../img/sample30.jpg);
+  background-position: 65%;
+  height: 72rem; }
+
+#menuPage ul, #menuPage li {
   list-style: none;
-  font-size: x-large; }
+  font-size: x-large;
+  margin: 0; }
 
 #menuPage h1 {
-  background-color: #006341;
   color: white; }
 
-#menuPage h2 {
-  padding-bottom: 0px;
-  border-bottom: 0px;
-  margin-bottom: 0px; }
+#menuPage p {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0; }
 
-#menuPage .menu-image-1 {
-  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample30.jpg);
-  background-position: 65%;
-  height: 64rem; }
+#menuPage button {
+  font-size: 1.2rem; }
+
+@media (max-width: 768px) {
+  #menuPage section {
+    border: 1px white solid;
+    margin: 1.5rem 1.5rem; }
+  #menuPage .menu-image-1 {
+    height: 130rem; } }
 
 #homePage .home-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample4.jpg);
