@@ -2,11 +2,17 @@
     .contact-image-1 {
         background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample18.jpg);
         background-position: 65%;
-        height: 76rem;
+        height: 98rem;
     }
     @media (max-width: 576px) {
         .contact-image-1 {
-            height: 86rem;
+            height: 106rem;
+        }
+    }
+    @media (max-width: 768px) {
+        section {
+            border: 1px white solid;
+            margin: 1.5rem 1.5rem;
         }
     }
 }
