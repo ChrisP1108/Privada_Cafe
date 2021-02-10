@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-<!-- Additional CSS must be placed after Bootstrap CSS -->
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css" />
@@ -20,87 +21,120 @@
 
     <!-- Main Page Content Goes Here -->
 
-    <div class="container" id="containerMenu">
+    <div class="container" id="containerRes">
         <div class="row">
-           <div class="col">
-              <h1>Reserve a Room</h1>
-           </div>
+            <div class="col">
+                <h1>Reserve a Room</h1>
+            </div>
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="card">
-                    <h3 class="card-header"> Room 1</h3>
+                <div class="card bg-dark mt-5 mb-3">
+                    <img class="card-img-top img-thumbnail" src="img/sample2.jpg" alt="room 1">
                     <div class="card-body">
-                        <p>Body</p>
-                    </div>
-                    <div class="card-footer">
-                        <p>Footer</p>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="col-6">
-                <div class="card">
-                    <h3 class="card-header">Room 2</h3>
-                    <div class="card-body">
-                        <p>Image Goes Here</p>
-                    </div>
-                    <div class="card-footer">
-                        <p>Footer</p>
+                        <h2 class="card-title text-white">Room 1</h2>
                     </div>
                 </div>
             </div>
             <div class="col-6">
-                <div class="card">
-                    <h3 class="card-header">Room 3</h3>
+                <div class="card bg-light border-success mt-5 mb-3">
+                    <img class="card-img-top img-thumbnail" src="img/sample27.jpg" alt="room 2">
                     <div class="card-body">
-                        <p>Image Goes Here</p>
-                    </div>
-                    <div class="card-footer">
-                        <p>Footer</p>
+                        <h2 class="card-title">Room 2</h2>
                     </div>
                 </div>
             </div>
             <div class="col-6">
-                <div class="card">
-                    <h3 class="card-header">Room 4</h3>
+                <div class="card bg-light border-success mb-3">
+                    <img class="card-img-top" src="img/sample8.jpg" alt="room 3">
                     <div class="card-body">
-                        <p>Image Goes Here</p>
-                    </div>
-                    <div class="card-footer">
-                        <p>Footer</p>
+                        <h2 class="card-title img-thumbnail">Room 3</h2>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col-6">
+                <div class="card bg-dark mb-3">
+                    <img class="card-img-top img-thumbnail" src="img/sample11.jpg" alt="room 4">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">Room 4</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card bg-dark mb-3">
+                    <img class="card-img-top img-thumbnail" src="img/sample7.jpg" alt="room 5">
+                    <div class="card-body">
+                        <h2 class="card-title text-white">Room 5</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card bg-light border-success">
+                    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#homeCarousel" data-slide-to="1"></li>
+                            <li data-target="#homeCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/sample2.jpg" alt="Breadcrumb Trail Campground" />
+                                <div class="carousel-caption">
+                                    <h3>Room 1</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/sample27.jpg" alt="React Lake Campground" />
+                                <div class="carousel-caption">
+                                    <h3>Room 2</h3>                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/sample8.jpg" alt="Chrome River Campground" />
+                                <div class="carousel-caption mt-0 mb-5">
+                                    <h3>Room 3</h3>                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col">
-                <button type="submit" class="btn btn-success btn-lg" id="btn" onclick="document.location='index.html'">Log in to Order</button> 
-            </div> 
+                <button type="submit" class="btn btn-success btn-lg mt-5 mb-5" id="btn"
+                    onclick="document.location='index.html'">Log in to Order</button>
+            </div>
         </div>
-    </div> 
+    </div>
 
     <div class="container">
 
-    <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
+        <div w3-include-html="html/footer.html"></div> <!-- Footer import -->
 
-     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-    <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+        <!-- External HTML file link importing utilizing W3Schools Include HTML javascript.  
     File downloaded from http://www.w3schools.com/lib/w3data.js.  Instructions found at 
     https://www.w3schools.com/howto/howto_html_include.asp and on 
     https://stackoverflow.com/questions/38837835/include-html-in-another-html-file -->
-    <script src="js/html_import.js"></script>
-    <script>
-        w3IncludeHTML();
-    </script>
+        <script src="js/html_import.js"></script>
+        <script>
+            w3IncludeHTML();
+        </script>
 </body>
+
 </html>

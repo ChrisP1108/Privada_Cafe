@@ -1,3 +1,4 @@
+
 .jumbotron {
   padding: 0;
   margin: 0;
@@ -200,9 +201,7 @@ hr {
   border-bottom: 0;
   padding-bottom: 5px;
   text-align: center; }
-  #containerRes ul {
-    list-style: none;
-    font-size: x-large; }
+
   #containerRes h1 {
     background-color: #006341;
     color: white; }
@@ -212,13 +211,3 @@ hr {
     border-bottom: 0px;
     margin-bottom: 0px; }
 
-#loginPage .login-image-1 {
-  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample16.jpg);
-  background-position: 65%;
-  height: 48rem; }
-
-#loginPage .btn-success:hover {
-  background: #008a5a; }
-
-#loginModal .btn-success:hover {
-  background: #008a5a; }
