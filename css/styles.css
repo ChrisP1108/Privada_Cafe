@@ -86,6 +86,9 @@ hr {
 .bg-dark-green {
   background: #002e1e; }
 
+.bg-darkish-green {
+  background: #00472e; }
+
 .bg-green {
   background: #00613f; }
 
@@ -166,16 +169,14 @@ hr {
 #contactUsPage .contact-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample18.jpg);
   background-position: 65%;
-  height: 98rem; }
-
-@media (max-width: 576px) {
-  #contactUsPage .contact-image-1 {
-    height: 106rem; } }
+  height: 88rem; }
 
 @media (max-width: 768px) {
   #contactUsPage section {
     border: 1px white solid;
-    margin: 1.5rem 1.5rem; } }
+    margin: 1.5rem 1.5rem; }
+  #contactUsPage .contact-image-1 {
+    height: 106rem; } }
 
 #locationPage .location-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample3.jpg);
@@ -194,22 +195,29 @@ hr {
   #locationPage .location-image-1 {
     height: 126rem; } }
 
-#containerRes {
-  background-color: #f0ebe0;
-  border-top: 0;
-  border-bottom: 0;
-  padding-bottom: 5px;
-  text-align: center; }
-  #containerRes h1 {
-    background-color: #006341;
-    color: white; }
-  #containerRes h2 {
-    color: #006341;
-    padding-bottom: 0px;
-    border-bottom: 0px;
-    margin-bottom: 0px; }
-  #containerRes .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.15); }
+#reservationPage .reservation-image-1 {
+  background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample1.jpg);
+  background-position: 65%;
+  height: 180rem; }
+
+#reservationPage .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+@media (max-width: 1200px) {
+  #reservationPage .reservation-image-1 {
+    height: 260rem; } }
+
+@media (max-width: 768px) {
+  #reservationPage .reservation-image-1 {
+    height: 210rem; } }
+
+@media (max-width: 576px) {
+  #reservationPage .reservation-image-1 {
+    height: 180rem; } }
+
+@media (max-width: 450px) {
+  #reservationPage .reservation-image-1 {
+    height: 150rem; } }
 
 #loginPage .login-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample16.jpg);

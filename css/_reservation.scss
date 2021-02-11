@@ -1,0 +1,34 @@
+#reservationPage {
+    .reservation-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample1.jpg);
+        background-position: 65%;
+        height: 180rem;
+
+    }
+    .carousel-caption {
+        background-color: $trans-dark-background;
+
+    }
+    @media (max-width: 1200px) {
+    .reservation-image-1 {
+        height: 260rem;
+        }
+    }
+    @media (max-width: 768px) {
+        .reservation-image-1 {
+            height: 210rem;
+            }
+        }
+    @media (max-width: 576px) {
+        .reservation-image-1 {
+            height: 180rem;
+            }
+        }
+    @media (max-width: 450px) {
+        .reservation-image-1 {
+            height: 150rem;
+            }
+        }
+}
+
+
