@@ -198,7 +198,7 @@ hr {
 #reservationPage .reservation-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample1.jpg);
   background-position: 65%;
-  height: 160rem; }
+  height: 180rem; }
 
 #reservationPage .fill {
   height: 100%;
