@@ -200,26 +200,30 @@ hr {
 #reservationPage .reservation-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample1.jpg);
   background-position: 65%;
-  height: 180rem; }
+  height: 160rem; }
 
 #reservationPage .fill {
   height: 100%;
   width: 100%; }
-
-#reservationPage .img-thumbnail-correction {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto; }
 
 #reservationPage .carousel-caption {
   background-color: rgba(0, 0, 0, 0.7); }
 
 @media (max-width: 1200px) {
   #reservationPage .reservation-image-1 {
-    height: 240rem; } }
+    height: 260rem; } }
+
+@media (max-width: 768px) {
+  #reservationPage .reservation-image-1 {
+    height: 210rem; } }
+
+@media (max-width: 576px) {
+  #reservationPage .reservation-image-1 {
+    height: 180rem; } }
+
+@media (max-width: 450px) {
+  #reservationPage .reservation-image-1 {
+    height: 150rem; } }
 
 #loginPage .login-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample16.jpg);
