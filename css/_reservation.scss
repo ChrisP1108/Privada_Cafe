@@ -1,0 +1,33 @@
+#reservationPage {
+    .reservation-image-1 {
+        background-image: linear-gradient(to top, $black, $trans-green, $black), url(../img/sample1.jpg);
+        background-position: 65%;
+        height: 180rem;
+
+    }
+    .fill {
+        height: 100%;
+        width: 100%;
+    }
+    //Room 1 image as taller, had to custom adjust to make it match the height of Room 2
+    .img-thumbnail-correction {
+        padding: 0.25rem;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 100%;
+        height: auto;
+      }
+      .carousel-caption {
+          background-color: $trans-dark-background;
+
+      }
+      @media (max-width: 1200px) {
+        .reservation-image-1 {
+            height: 240rem;
+    
+        }
+      }
+}
+
+
