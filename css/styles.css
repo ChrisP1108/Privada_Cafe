@@ -169,16 +169,14 @@ hr {
 #contactUsPage .contact-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample18.jpg);
   background-position: 65%;
-  height: 98rem; }
-
-@media (max-width: 576px) {
-  #contactUsPage .contact-image-1 {
-    height: 106rem; } }
+  height: 88rem; }
 
 @media (max-width: 768px) {
   #contactUsPage section {
     border: 1px white solid;
-    margin: 1.5rem 1.5rem; } }
+    margin: 1.5rem 1.5rem; }
+  #contactUsPage .contact-image-1 {
+    height: 106rem; } }
 
 #locationPage .location-image-1 {
   background-image: linear-gradient(to top, black, rgba(0, 71, 46, 0.5), black), url(../img/sample3.jpg);
