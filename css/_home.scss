@@ -21,4 +21,14 @@
             height: 47rem;
         }
     }
+    .top-button {
+        &-position {
+            top: 36rem;
+        }
+        &-color {
+            background: $trans-light-background;
+            border: 1px $dark-gray solid;
+            color: $gray;
+        }
+    }
 }
