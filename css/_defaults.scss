@@ -74,6 +74,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 40rem;
+    margin: 0 0;
 }
 
 .section-overlay {
@@ -103,4 +104,8 @@ hr {
 
 .border-container {
     border: 2px $white solid;
+}
+
+.fluid {
+    width: 100%;
 }

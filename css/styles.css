@@ -48,7 +48,8 @@ body {
 .image-section {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 40rem; }
+  padding-bottom: 40rem;
+  margin: 0 0; }
 
 .section-overlay {
   background: rgba(46, 46, 46, 0.801);
@@ -73,6 +74,9 @@ hr {
 
 .border-container {
   border: 2px white solid; }
+
+.fluid {
+  width: 100%; }
 
 .button-sizing {
   width: 100%; }
